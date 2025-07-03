@@ -8,5 +8,8 @@ wheels/
 
 # Virtual environments
 .venv
+
 .DS_Store
 cifar/
+
+.gradio/
