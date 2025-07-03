@@ -4,7 +4,7 @@ A PyTorch implementation of a Convolutional Neural Network (CNN) for image class
 
 ## Architecture
 
-![CNN Architecture](benchmarks/architecture.png)
+![CNN Architecture](assets/architecture.png)
 
 The CNN model consists of
 ### Convolutional Layers:
@@ -61,7 +61,7 @@ The CNN model consists of
 
 ## Performance
 
-![Training Loss](benchmarks/loss.png)
+![Training Loss](assets/loss.png)
 Reaching 0.7227 in Train loss and 0.6557 in Validation loss at epoch 50
 
 
@@ -79,7 +79,7 @@ Total Accuracy: `81.45%`
 - **Ship**: `89.60%`
 - **Truck**: `87.90%`
 
-![Accuracy Benchmark](benchmarks/accuracy.png)
+![Accuracy Benchmark](assets/accuracy.png)
 
 ---
 
