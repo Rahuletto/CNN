@@ -4,6 +4,8 @@ app_file: main.py
 sdk: gradio
 sdk_version: 5.35.0
 license: mit
+authors:
+- Rahuletto
 language:
 - en
 metrics:
@@ -17,11 +19,15 @@ tags:
 - classification
 - cifar
 - cnn
+- spaces
 ---
 
 # CNN with CIFAR-10
 
 A PyTorch implementation of a Convolutional Neural Network (CNN) for image classification on the CIFAR-10 dataset, achieving **81.45% test accuracy**.
+
+> Try it out! 
+> https://huggingface.co/spaces/Rahuletto/CNN
 
 ## Architecture
 
