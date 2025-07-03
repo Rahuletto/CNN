@@ -9,6 +9,7 @@ language:
 metrics:
 - accuracy
 pipeline_tag: image-classification
+python_version: 3.12.10
 ---
 
 # CNN with CIFAR-10
@@ -71,7 +72,7 @@ python main.py
 
 You can play around in the gradio interface
 
-<video controls src="rec.mp4" title="Title"></video>
+https://github.com/user-attachments/assets/1f742c32-79bd-4d16-a74f-68c241f4a841
 
 ## Model Code
 ```py
