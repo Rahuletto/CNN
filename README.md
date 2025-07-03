@@ -10,6 +10,13 @@ metrics:
 - accuracy
 pipeline_tag: image-classification
 python_version: 3.12.10
+datasets:
+- uoft-cs/cifar10
+tags:
+- image
+- classification
+- cifar
+- cnn
 ---
 
 # CNN with CIFAR-10
