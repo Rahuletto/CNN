@@ -1,3 +1,9 @@
+---
+title: CNN
+app_file: main.py
+sdk: gradio
+sdk_version: 5.35.0
+---
 # CNN with CIFAR-10
 
 A PyTorch implementation of a Convolutional Neural Network (CNN) for image classification on the CIFAR-10 dataset, achieving **81.45% test accuracy**.
@@ -49,6 +55,16 @@ The CNN model consists of
    pip install -r requirements.txt
    ```
 
+### Running the model
+
+1. Run the main file
+```bash
+python main.py
+```
+
+You can play around in the gradio interface
+
+<video controls src="rec.mp4" title="Title"></video>
 
 ## Model Code
 ```py
